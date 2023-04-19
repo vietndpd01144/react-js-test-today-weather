@@ -20,7 +20,7 @@ const Button: React.FC<ButtonProps> = ({
       }
       setDisabled(false);
     },
-    []
+    [onClickHandler]
   );
 
   return (
